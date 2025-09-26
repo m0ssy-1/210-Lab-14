@@ -11,9 +11,16 @@ class Color {
     Color(): red(0), blue(0), green(0), {}
 
     Color(int r, int b, int g): red(r), blue(b), green(g) {}
+
+    void setRed(int r) {red = r;}
+    void setBlue(int b) {blue = b;}
+    void setGreen(in g) {green = g;}
+    
 }
 
-voide print()
+void print() const {
+    cout << 
+}
 
 
 int main() {
