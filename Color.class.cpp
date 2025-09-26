@@ -18,18 +18,23 @@ voide print()
 
 int main() {
 
-    Color c1();
-    Color c2();
-    Color c3();
-    Color c4();
+    //creates objects
+    Color c1();     //red
+    Color c2();     //blue
+    Color c3();     //green
+    Color c4();     //black/default
 
-
+// vlues set
     c1.setRed(128);
     c2.setBlue(192);
     c3.setGreen(64);
 
-
-
+    //prints ccolors
+    cout << "something" << endl;
+    c1.print();
+    c2.print();
+    c3.print();
+    c4.print();
 
     return 0;
 }
