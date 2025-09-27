@@ -32,15 +32,15 @@ void print() const {
 int main() {
 
     //creates objects
-    Color c1();     //red
-    Color c2();     //blue
-    Color c3();     //green
-    Color c4();     //black/default
+    Color c1(255, 0, 0);     //red
+    Color c2(0, 0, 255);     //blue
+    Color c3(0, 255, 0);     //green
+    Color c4;     //black/default
 
-// vlues set
-    c1.setRed(128);
-    c2.setBlue(192);
-    c3.setGreen(64);
+// values set
+    c4.setRed(128);
+    c4.setBlue(192);
+    c4.setGreen(64);
 
     //prints ccolors
     cout << "something" << endl;
