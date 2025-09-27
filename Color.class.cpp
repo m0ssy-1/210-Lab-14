@@ -15,11 +15,17 @@ class Color {
     void setRed(int r) {red = r;}
     void setBlue(int b) {blue = b;}
     void setGreen(in g) {green = g;}
-    
+
+    int getRed() const {return red;}
+    int getBlue() const (return blue;)
+    int getGreen()const {return green;}
+
 }
 
 void print() const {
-    cout << 
+    cout << "something" << //a color
+    << "something" << //a color
+    <<"something" << // a color
 }
 
 
