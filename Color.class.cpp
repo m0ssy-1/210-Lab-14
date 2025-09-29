@@ -10,7 +10,7 @@ class Color {
     public:
     Color(): red(0), blue(0), green(0) {}
 
-    Color(int r, int b, int g): red(r), blue(b), green(g) {}
+    Color(int r, int g, int b): red(r), green(g), blue(b) {}
 
     void setRed(int r) {red = r;}
     void setBlue(int b) {blue = b;}
@@ -22,9 +22,9 @@ class Color {
 
 
 void print() const {
-    cout << "something" << red
-    << "something" << green
-    <<"something" << blue << "something" << endl;
+    cout << "Color-(R: " << red
+    << ", G: " << green
+    <<", B: " << blue << ")" << endl;
     }
 };
 
@@ -42,7 +42,7 @@ int main() {
     c4.setGreen(64);
 
     //prints ccolors
-    cout << "something" << endl;
+    cout << "Defined Colors:" << endl;
     c1.print();
     c2.print();
     c3.print();
