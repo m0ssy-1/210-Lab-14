@@ -8,26 +8,25 @@ class Color {
     int green;
 
     public:
-    Color(): red(0), blue(0), green(0), {}
+    Color(): red(0), blue(0), green(0) {}
 
     Color(int r, int b, int g): red(r), blue(b), green(g) {}
 
     void setRed(int r) {red = r;}
     void setBlue(int b) {blue = b;}
-    void setGreen(in g) {green = g;}
+    void setGreen(int g) {green = g;}
 
     int getRed() const {return red;}
-    int getBlue() const (return blue;)
+    int getBlue() const {return blue;}
     int getGreen()const {return green;}
 
-}
 
 void print() const {
-    cout << "something" << //a color
-    << "something" << //a color
-    <<"something" << // a color
-}
-
+    cout << "something" << red
+    << "something" << green
+    <<"something" << blue << "something" << endl;
+    }
+};
 
 int main() {
 
